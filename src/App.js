@@ -237,7 +237,7 @@ class App extends Component {
         <div className="App-header">
           <span className="logo">
             <img src={heart} alt="Abakus logo" />
-            <span> ChickFlick Bingo</span>
+            <span> DebattBingo</span>
           </span>
           <div className="newBoard">
             <button onClick={() => this.generateBoard()}>
