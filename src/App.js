@@ -3,6 +3,7 @@ import BingoCell from "./components/BingoCell";
 import Radio from "./components/Radio";
 import logo from "./github.svg";
 import heart from "./assets/heart.png";
+import store from "./assets/store.png";
 import bingopile from "./bingo.json";
 class App extends Component {
   constructor(props) {
@@ -186,7 +187,7 @@ class App extends Component {
           <div className="bingotext">
             <img src={heart} alt="Flamme" />
             <span>Bingo!</span>
-            <img src={heart} alt="Flamme" />
+            <img src={store} alt="Flamme" />
           </div>
           <p>(Trykk for å lukke)</p>
         </div>
@@ -238,6 +239,7 @@ class App extends Component {
           <span className="logo">
             <img src={heart} alt="Abakus logo" />
             <span> DebattBingo</span>
+            <img src={store} alt="Abakus logo" />
           </span>
           <div className="newBoard">
             <button onClick={() => this.generateBoard()}>
