@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/debattbingo/static/css/main.1856f853.chunk.css",
-    "main.js": "/debattbingo/static/js/main.0b2cac4b.chunk.js",
-    "main.js.map": "/debattbingo/static/js/main.0b2cac4b.chunk.js.map",
+    "main.js": "/debattbingo/static/js/main.53d3ba53.chunk.js",
+    "main.js.map": "/debattbingo/static/js/main.53d3ba53.chunk.js.map",
     "runtime-main.js": "/debattbingo/static/js/runtime-main.8cc365b7.js",
     "runtime-main.js.map": "/debattbingo/static/js/runtime-main.8cc365b7.js.map",
     "static/js/2.d7e9bb47.chunk.js": "/debattbingo/static/js/2.d7e9bb47.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8cc365b7.js",
     "static/js/2.d7e9bb47.chunk.js",
     "static/css/main.1856f853.chunk.css",
-    "static/js/main.0b2cac4b.chunk.js"
+    "static/js/main.53d3ba53.chunk.js"
   ]
 }
