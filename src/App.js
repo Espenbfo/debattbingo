@@ -191,49 +191,6 @@ class App extends Component {
           </div>
           <p>(Trykk for å lukke)</p>
         </div>
-        <div
-          className={this.state.showRules ? "popup show" : "popup"}
-          onClick={() => this.setState({ showRules: false })}
-        >
-          <div className="textWindow">
-            <p>
-              <b>Regler / hvordan spille</b>
-            </p>
-            <br />
-            <p>
-              1) Sett på en chickflick
-            </p>
-            <br />
-            <p>
-              2) Alle krysser av på sitt eget brett og drikker en slurk når det
-              kommer situasjoner som matcher brettet.
-            </p>
-            <br />
-            <p>
-              3) Får du fire kryss på rad kan du dele ut fire slurker.
-              (vertikalt, horisontalt og diagonalt)
-            </p>
-            <br />
-            <p>
-              4) Vinneren er den som får fyllt hele bingokortet (eller h*n som
-              har flest når filmen er over)
-            </p>
-
-            <br />
-            <p>
-              <b>Alle skåler og drikker når</b>
-            </p>
-            <br />
-            <p>1) Noen kysser</p>
-            <br />
-            <p>2) En til regel</p>
-            <br />
-            <p>3) Enda en regel</p>
-            <br />
-            <p>4) Og en regel til igjen</p>
-          </div>
-          <p>(Trykk for å lukke)</p>
-        </div>
 
         <div className="App-header">
           <span className="logo">
@@ -246,13 +203,8 @@ class App extends Component {
               nytt brett
             </button>
           </div>
-          <div className="rules">
-            <button onClick={() => this.setState({ showRules: true })}>
-              Regler
-            </button>
-          </div>
           <div className="github">
-            <a href={"https://github.com/dotClique/chickflick-bingo"}>
+            <a href={"https://github.com/Espenbfo/debattbingo"}>
               <img src={logo} alt="Github" />
             </a>
           </div>
